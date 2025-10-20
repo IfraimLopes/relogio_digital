@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right , blue, red );
+    color: white;
+}
+
+
+& .content{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+    & .relogio{
+        display: flex;
+        font-size: 60px;
+        border: 2px solid white;
+        padding: 40px 220px;
+        border-radius: 10px;
+    }
+
+    & #micro{
+        display: flex;
+        margin-top: 26px;
+        font-size: 30px;
+
+    }
+
+}
+
+
